@@ -96,13 +96,13 @@ export default function Hero() {
 
           {/* Official logo, shown unaltered on its own background */}
           <div className="hidden flex-col items-end gap-3 animate-[fadeSlideUp_0.8s_ease_1.1s_both] md:flex">
-            <img
-              src={logo}
-              alt="INNO-NEST official logo"
-              width="140"
-              height="135"
-              className="h-28 w-auto rounded-2xl ring-1 ring-white/20 lg:h-36"
-            />
+            {/* <img */}
+              {/* src={logo} */}
+              {/* alt="INNO-NEST official logo" */}
+              {/* width="140" */}
+              {/* height="135" */}
+              {/* className="h-28 w-auto rounded-2xl ring-1 ring-white/20 lg:h-36" */}
+            {/* /> */}
             <p className="text-xs text-white/60">AREATOR is a product developed by INNO-NEST</p>
           </div>
         </div>
